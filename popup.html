@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        #heading{
+            text-align: center;
+            color:aqua;
+            font-weight: 1000;
+        }
+        #urlInput {
+            margin: auto;
+            text-align: center;
+            width: 300px;
+        }
+        #btn_container{
+            display: flex;
+            height:fit-content;
+            width:100%;
+            justify-content: center;
+        }
+        #checkButton {
+            margin: auto;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #result {
+            text-align: center;
+            color:aqua;
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 1000;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="heading">Phishing Website Detector</h2>
+    <input type="text" id="urlInput" placeholder="Enter URL here">
+    <div id="btn_container"><button id="checkButton">Check</button></div>
+    <p id="result"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
