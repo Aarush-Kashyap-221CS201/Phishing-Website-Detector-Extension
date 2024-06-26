@@ -29,5 +29,5 @@ This Phishing Website detector extension is an easy-to-use Chrome extension whic
 
 1. A Chrome extension is built using manifest.json, popup.html and popup.js
 2. The extension allows you to enter a custom URL
-3. The model is employed using the Fetch API from JS
+3. The model is employed using the Fetch API from JS to the backend Flask server running in app.py
 4. The result is directly shown in the extension itself - Legit or Phishing
