@@ -15,16 +15,19 @@ This Phishing Website detector extension is an easy-to-use Chrome extension whic
 1. 5000 legit and phishing URLs each are chosen randomly
 2. Their features are extracted: only address bar based features are used in this project
 3. Their individual dataframes (obtained using feature extraction) are combined and shuffled
+4. All the feature extraction occurs in the Feature_Extraction.ipynb
 
 ## Making and Saving the Model
 
 1. Train Test split is employed on the combined dataframe
 2. XGBoostClassifier is used to train the data
 3. Final accuracy: Training: 81.9% , Testing: 80.4%
-4. The model is saved
+4. All the training occurs in the Feature_Extraction.ipynb
+5. The model is saved: XGBoostClassifer.pickle.dat
 
 ## Using the model in the extension
 
-1. The extension allows you to enter a custom URL
-2. The model is employed using the Fetch API from JS
-3. The result is directly shown in the extension itself - Legit or Phishing
+1. A Chrome extension is built using manifest.json, popup.html and popup.js
+2. The extension allows you to enter a custom URL
+3. The model is employed using the Fetch API from JS
+4. The result is directly shown in the extension itself - Legit or Phishing
