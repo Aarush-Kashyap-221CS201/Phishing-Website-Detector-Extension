@@ -1,5 +1,9 @@
 # Phishing-Website-Detector-Extension 
 
+## Description
+
+This Phishing Website detector extension is an easy-to-use Chrome extension which allows the users to enter any URL and check if the corresponding website is a phishing website or a legit website
+
 ## Resources Used
 
 1. For legit sites, the file legit_urls.csv is used (saved inside the resources folder)
