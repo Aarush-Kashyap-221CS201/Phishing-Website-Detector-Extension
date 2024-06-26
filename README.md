@@ -31,3 +31,10 @@ This Phishing Website detector extension is an easy-to-use Chrome extension whic
 2. The extension allows you to enter a custom URL
 3. The model is employed using the Fetch API from JS to the backend Flask server running in app.py
 4. The result is directly shown in the extension itself - Legit or Phishing
+
+## How to Use
+
+1. Download all files and folders and place into one folder
+2. Add the extension to Chrome via the 'load unpacked' button on Chrome Extensions Window
+3. Run the app.py to run the backend Flask server
+4. Now, click on the extension, enter the URL into the space provided and click on 'Check' button
